@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Fruktur&display=swap&subset=latin-ext");
+
+/* ----------------- variables */
+:root {
+  --red-color1: #c11434;
+  --red-color2: #901a30;
+}
+/* ----------------- variables fin */
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Fruktur", cursive;
+  font-size: 15px;
+}
+
+body {
+  background-image: url("aquelarre fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* ----------------- Header */
+
+nav {
+  display: flex;
+  background-color: transparent;
+  padding: 10px;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: darkgoldenrod;
+}
+
+/* ----------------- Header fin */
+
+/* ------------------------------------main section */
+
+.wht_is_rol {
+  font-size: 18px;
+}
+
+.main_section {
+  padding: 5% 15% 15% 15%;
+  text-align: center;
+}
+
+.products {
+  /* background-image: url(curve2.png); */
+  max-height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 15%;
+  display: flex;
+}
+
+.product {
+  padding: 80px;
+  margin-top: -360px;
+}
+
+.product .content {
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 2px 2px black;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.content {
+  width: 320px;
+  height: 450px;
+}
+
+.img_content {
+  text-align: center;
+}
+
+.main_button {
+  background-color: var(--red-color1);
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  color: black;
+  border: 0;
+  cursor: pointer;
+  border-radius: 4px;
+  justify-self: end;
+}
+
+.main_button:hover {
+  background-color: var(--red-color2);
+}
+
+.aquelux {
+  padding-bottom: 40px;
+}
+
+.aque {
+  padding-bottom: 20px;
+}
+
+/* ------------------------------------main section fin */
+
+/* -------------------------------------------Campaings */
+
+.campaign {
+  box-shadow: 0 0 2px;
+  display: block;
+}
+
+.content_campaigns {
+  display: flex;
+  max-height: 300px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10%;
+}
+
+.content_campaign {
+  max-width: 200px;
+  height: 500px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.img_campaing {
+  width: 150px;
+}
+
+/* -------------------------------------------Campaings fin */
+
+/* -------------------------------------------Menciones */
+
+.menciones {
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.menciones h1 {
+  text-align: center;
+  margin: 3%;
+  font-size: 40px;
+}
+
+.content_mentions {
+  display: grid;
+  grid-template-columns: repeat(4, 239px);
+  grid-template-rows: auto;
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+.mention {
+  max-width: 239px;
+  box-shadow: 0 3px 2px 2px #e6e5e9;
+  text-align: center;
+}
+
+.description_mention {
+  padding: 5px;
+}
+
+/* -------------------------------------------Menciones fin */
+
+/* -------------------------------------------Footer  */
+
+footer {
+  height: 40px;
+  background-color: black;
+  display: flex;
+  color: aliceblue;
+  text-align: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+small {
+  font: 80%;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--red-color1);
+}
+
+footer a:hover {
+  color: var(--red-color2);
+}
+
+/* -------------------------------------------Footer fin */
